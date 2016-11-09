@@ -59,3 +59,11 @@ The annotated parameter method has to be static. This is due to the fact, that t
 - Documentation and Example (https://github.com/junit-team/junit4/wiki/Parameterized-tests)
 - Library (https://github.com/Pragmatists/JUnitParams)
 
+# Parameterized Testing 
+
+Steps for testing with parameters:
+
+- Select RunnerClass (By using @RunWith)
+- Create testMethod (By using @Parameters or @FileParameters)
+  The annotation is depending on whether you are providing parameters in code or from a file.
+  The method has to be public!
