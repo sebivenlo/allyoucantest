@@ -23,3 +23,23 @@ The benefits of using this approach are:
 - No Copy&Waste coding, No "Global" variables, DRY!
 
 - Clear separation between test logic and test data
+
+## Downfalls
+
+The downfalls of using this approach are:
+
+- Much overhead for small test cases
+- Dependent on JUnitParams library
+
+
+# Setting Up The Maven Project
+
+To get started with parameterized testing, we provided a template maven project that contains multiple test files, as well as a test dataset. The dependencies are already added to the xml file.
+
+Please follow the upcoming steps:
+
+- Download the maven project of this repository
+- Open the project in your IDE
+- Build the project
+
+##
