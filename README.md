@@ -50,7 +50,12 @@ Specific annotations for parameterized testing are:
 - Parameters ( Specifies the parameters )
 - FileParameters ( Specifies parameters read from a file )
 
+## Hints
+
+The annotated parameter method has to be static. This is due to the fact, that the runner is working on class-level.
+
 ## Reference and Documentation
 
 - Documentation and Example (https://github.com/junit-team/junit4/wiki/Parameterized-tests)
 - Library (https://github.com/Pragmatists/JUnitParams)
+
