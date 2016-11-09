@@ -42,4 +42,15 @@ Please follow the upcoming steps:
 - Open the project in your IDE
 - Build the project
 
-##
+## Annotations
+
+Specific annotations for parameterized testing are:
+
+- RunWith ( Specifies the Runner class)
+- Parameters ( Specifies the parameters )
+- FileParameters ( Specifies parameters read from a file )
+
+## Reference and Documentation
+
+- Documentation and Example (https://github.com/junit-team/junit4/wiki/Parameterized-tests)
+- Library (https://github.com/Pragmatists/JUnitParams)
