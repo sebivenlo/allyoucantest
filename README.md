@@ -3,7 +3,7 @@ Repository containing an empty Maven project, introduction to parameterized test
 
 # Introduction
 
-This section is about parameterized testing, the benefits and downfalls and an instruction on how to implement an example.
+This section is about parameterized testing, the benefits and downfalls and notes about what to take care of.
 
 ## Parameterized Testing
 
