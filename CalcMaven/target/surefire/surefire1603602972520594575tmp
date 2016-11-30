@@ -1,8 +1,0 @@
-#surefire
-#Wed Nov 23 14:57:56 CET 2016
-maven.ext.class.path=C\:\\Program Files\\NetBeans 8.1\\java\\maven-nblib\\netbeans-eventspy.jar;C\:\\Program Files\\NetBeans 8.1\\java\\maven-nblib\\netbeans-eventspy.jar
-user.dir=C\:\\Users\\Moha\\Documents\\CalcMaven
-file.encoding=UTF-8
-localRepository=C\:\\Users\\Moha\\.m2\\repository
-basedir=C\:\\Users\\Moha\\Documents\\CalcMaven
-test=calc.CalculatorTest

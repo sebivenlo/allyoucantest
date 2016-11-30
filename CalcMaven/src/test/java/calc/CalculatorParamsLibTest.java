@@ -43,15 +43,15 @@ public class CalculatorParamsLibTest {
     @Test
     @FileParameters("addMethodParam.csv")
     public void testAddWithCSVMethod(double a, double b, double result) {
-        System.out.println("TestAddWithCSVMethod");
         assertEquals(result, calc.add(a, b), 0.1);
     }
 
     /**
      * Test add method of fractions with JUnitParams lib and CSV file
+     *
      * @param a
      * @param b
-     * @param result 
+     * @param result
      */
     @Test
     @FileParameters("fractionTestData.csv")
@@ -69,7 +69,6 @@ public class CalculatorParamsLibTest {
     @Parameters({"12, 2, 14", "3, 4, 7", "4, 4, 8", "1, 2, 3", "1, 2, 3", "10, 4, 14", "100, 100, 200", "50, 25, 75",
         "50, 25, 75", "30, 30, 60", "0, 0, 0", "2147483646, 1, 2147483647"})
     public void testAddMethod(double a, double b, double result) {
-        System.out.println("testAddMethod");
         assertEquals(result, calc.add(a, b), 0.1);
     }
 

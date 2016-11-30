@@ -58,9 +58,8 @@ public class CalculatorTest {
 
     @Test
     public void testAddFractionMixTypes() {
-        assertEquals("1", calc.addFraction(0.5, 0.5));
-        assertEquals("19/20", calc.addFraction(0.75, 0.2));
-        //assertEquals("19/20", calc.addFraction("3/4",2.5));
+        assertEquals("1.0", calc.addFraction(0.5, 0.5));
+        assertEquals("0.95", calc.addFraction(0.75, 0.2));
     }
 
 }
