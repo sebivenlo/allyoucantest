@@ -7,7 +7,7 @@ package calc;
 
 /**
  *
- * @author Moha
+ * @author Moha, Marvin Rüsenberg
  */
 public class Fraction {
 
@@ -20,14 +20,21 @@ public class Fraction {
         decomposition(firstAddend, secondAddend);
     }
 
+    /**
+     * Decomposes a given String from a .csv File into fractions for calculation.
+     * 
+     * 
+     * @param frac1
+     * @param frac2 
+     */
     private void decomposition(String frac1, String frac2) {
         this.numerator1 = Integer.parseInt(frac1.split("/")[0]);
         this.denominator1 = Integer.parseInt(frac1.split("/")[1]);
         this.numerator2 = Integer.parseInt(frac2.split("/")[0]);
         this.denominator2 = Integer.parseInt(frac2.split("/")[1]);
 
-        System.out.println("Frac 1 = " + this.numerator1 + "/" + this.denominator1);
-        System.out.println("Frac 2 = " + this.numerator2 + "/" + this.denominator2);
+        //System.out.println("Frac 1 = " + this.numerator1 + "/" + this.denominator1);
+        //System.out.println("Frac 2 = " + this.numerator2 + "/" + this.denominator2);
 
     }
 }
