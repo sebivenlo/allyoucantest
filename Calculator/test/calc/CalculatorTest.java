@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Moha
+ * @author Moha, Marvin Rüsenberg
  */
 public class CalculatorTest {
 
