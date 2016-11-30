@@ -16,7 +16,7 @@ import junitparams.Parameters;
 
 /**
  *
- * @author Moha
+ * @author Moha, Marvin Rüsenberg
  */
 @RunWith(JUnitParamsRunner.class)
 public class CalculatortParamsLibTest {

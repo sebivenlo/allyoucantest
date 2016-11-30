@@ -16,8 +16,9 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 /**
- *
- * @author Moha
+ * TestClass making use of the default JUnit Parameter-Testing
+ * 
+ * @author Moha, Marvin Rüsenberg
  */
 @RunWith(Parameterized.class)
 public class CalculatorParamsTest {
@@ -44,9 +45,10 @@ public class CalculatorParamsTest {
     }
 
     /**
-     * Parameters
+     * Method for returning the Collection of specified Parameters
      *
-     * @return
+     * 
+     * @return Two Dimensional Object Array of Parameters
      */
     @Parameters
     public static Collection<Object[]> data() {
